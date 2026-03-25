@@ -5,21 +5,21 @@
 class KintVault < Formula
   desc "Secrets management CLI — encrypt .env files directly in your repo"
   homepage "https://github.com/kint-pro/kint-vault-cli"
-  version "0.1.0"
+  version "0.1.1"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.0/kint-vault-cli_0.1.0_darwin_amd64.tar.gz"
-      sha256 "191ba1367db2fbdf8d82063949129ba575051de7a2844dfb4607ea0061cc896f"
+      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.1/kint-vault-cli_0.1.1_darwin_amd64.tar.gz"
+      sha256 "1a7d827ce694fd1c23a2ab527a6f49a61895f45c6523eeb7b736521fa9490ab4"
 
       define_method(:install) do
         bin.install "kint-vault"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.0/kint-vault-cli_0.1.0_darwin_arm64.tar.gz"
-      sha256 "7c8c5cef2e87255af5d3152244978865939e35ed980f89da0de9e6e0961a889a"
+      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.1/kint-vault-cli_0.1.1_darwin_arm64.tar.gz"
+      sha256 "6bcacaf42d3709ba6ce63bf65547c98cd0693eb8075dcb4e4d7352236c44dc82"
 
       define_method(:install) do
         bin.install "kint-vault"
@@ -29,15 +29,15 @@ class KintVault < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.0/kint-vault-cli_0.1.0_linux_amd64.tar.gz"
-      sha256 "3c295312b6205366f8c6bf7cccf479a591ee57b5d64d9cd776efca485693e46e"
+      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.1/kint-vault-cli_0.1.1_linux_amd64.tar.gz"
+      sha256 "62df33c30a3c51a72306f744df73264b2847f61c52e348456f8d022113fc5f87"
       define_method(:install) do
         bin.install "kint-vault"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.0/kint-vault-cli_0.1.0_linux_arm64.tar.gz"
-      sha256 "ce45336b837c66bc30474f77ed6567485ca1e89df58617f62cf8c05f6f022e82"
+      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.1/kint-vault-cli_0.1.1_linux_arm64.tar.gz"
+      sha256 "12cfc041b18d6086b7ebf09f709aced72d67a1e32d6672c42457f5ee4efee215"
       define_method(:install) do
         bin.install "kint-vault"
       end
