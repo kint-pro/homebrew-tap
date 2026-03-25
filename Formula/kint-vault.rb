@@ -1,28 +1,28 @@
 class KintVault < Formula
   desc "Secrets management CLI — encrypt .env files directly in your repo"
   homepage "https://github.com/kint-pro/kint-vault-cli"
-  version "0.1.0"
+  version "0.1.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.0/kint-vault-cli_0.1.0_darwin_arm64.tar.gz"
-      sha256 "7c8c5cef2e87255af5d3152244978865939e35ed980f89da0de9e6e0961a889a"
+      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.3/kint-vault-cli_0.1.3_darwin_arm64.tar.gz"
+      sha256 "e2d2066a627832d24cbfe549a75658788a2498b347f67d9dd3797854cbf96be3"
     end
     on_intel do
-      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.0/kint-vault-cli_0.1.0_darwin_amd64.tar.gz"
-      sha256 "191ba1367db2fbdf8d82063949129ba575051de7a2844dfb4607ea0061cc896f"
+      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.3/kint-vault-cli_0.1.3_darwin_amd64.tar.gz"
+      sha256 "6333fb5fb7cc837186be1c0153ea34ca1f29a07646b9d3cdfaeac4b9e37c8377"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.0/kint-vault-cli_0.1.0_linux_arm64.tar.gz"
-      sha256 "ce45336b837c66bc30474f77ed6567485ca1e89df58617f62cf8c05f6f022e82"
+      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.3/kint-vault-cli_0.1.3_linux_arm64.tar.gz"
+      sha256 "b78acef1302aafffee279acd02d3101feacfc6b8b65bb7f75a393fb1222befa2"
     end
     on_intel do
-      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.0/kint-vault-cli_0.1.0_linux_amd64.tar.gz"
-      sha256 "3c295312b6205366f8c6bf7cccf479a591ee57b5d64d9cd776efca485693e46e"
+      url "https://github.com/kint-pro/kint-vault-cli/releases/download/v0.1.3/kint-vault-cli_0.1.3_linux_amd64.tar.gz"
+      sha256 "9031bbc4ee9c9a892f9b15a661720e84775f52e3cd32cf9bb68ab9fc55975ae1"
     end
   end
 
